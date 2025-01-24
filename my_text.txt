@@ -1,0 +1,48 @@
+#include<stdio.h>
+#include<string.h>
+#define macro 15
+#ifndef HELLO_H
+int main()
+{
+    int x=10;
+    printf("my x value is : %d\n",x);
+    char ch = 'A';
+    printf("character is %c\n",ch);
+    char * str="hello";
+    printf("string is %s\n",str);
+    float f = 1.45;
+    printf("float value is %g\n",f);
+    a=b+c;
+   // int 1b=10;
+    int b1=20;
+    for(int i=0;i<5;i++)
+    {
+        printf("Lexical\n");
+        i--;
+    } 
+    if(a && b)
+    {
+        printf("& operation\n");
+   } 
+    
+    
+    int num = 0xABCD;
+    int num = 0007;
+}
+#endif
+
+/*
+int main()
+{
+	int num = 10;
+	for ( int i = 0 ; i < num ; i++)
+	{
+		printf("Hello\n");
+	}  
+		return 0;
+}
+int num = 0xABCDG;
+int num = 0008;
+int num = 0b012;
+int 1num;*/
+
